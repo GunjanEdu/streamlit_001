@@ -7,7 +7,7 @@ with open('sample_data.plk', 'rb') as file:
     df = pickle.load(file)
 
 # Streamlit app
-st.title("Data Interaction App")
+st.title("Data Interaction App samples....")
 
 # Display the DataFrame
 st.write("Data loaded from the .plk file:")
@@ -25,7 +25,7 @@ st.write(filtered_df)
 
 
 # Option to download the filtered data
-if st.button("Download Filtered Data"):
+if st.button("Download"):
     with open('filtered_data.plk', 'wb') as file:
         pickle.dump(filtered_df, file)
     
