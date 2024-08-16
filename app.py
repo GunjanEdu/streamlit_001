@@ -7,7 +7,7 @@ with open('sample_data.plk', 'rb') as file:
     df = pickle.load(file)
 
 # Streamlit app
-st.title("Data Interaction App samples....")
+st.title("Data Interaction App samples for devlopment ....")
 
 # Display the DataFrame
 st.write("Data loaded from the .plk file:")
